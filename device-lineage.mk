@@ -24,6 +24,9 @@ TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
+# Scudo
+PRODUCT_USE_SCUDO := true
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
