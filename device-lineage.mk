@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
     libaudioroutev2.vendor \
     libtinycompress
 
+# Call the BCR setup
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-V1-ndk.vendor:64 \

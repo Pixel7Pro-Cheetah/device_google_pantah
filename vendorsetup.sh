@@ -18,3 +18,6 @@ git clone https://github.com/Pixel7Pro-Cheetah/proprietary_vendor_google_cheetah
 echo 'Cloning pixelparts'
 git clone https://github.com/Pixel7Pro-Cheetah/packages_apps_PixelParts.git -b udc packages/apps/PixelParts
 
+# BCR
+echo 'Cloning bcr'
+git clone --depth=1 https://github.com/kenway214/vendor_bcr.git -b main vendor/bcr
