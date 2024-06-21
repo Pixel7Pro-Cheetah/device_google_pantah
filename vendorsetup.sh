@@ -13,3 +13,8 @@ git clone --depth=1 https://android.googlesource.com/device/google/pantah-kernel
 # Vendor
 echo 'Cloning vendor tree'
 git clone https://github.com/Pixel7Pro-Cheetah/proprietary_vendor_google_cheetah.git -b lineage-21 vendor/google/cheetah
+
+# pixel_parts
+echo 'Cloning pixelparts'
+git clone https://github.com/Pixel7Pro-Cheetah/packages_apps_PixelParts.git -b udc packages/apps/PixelParts
+
